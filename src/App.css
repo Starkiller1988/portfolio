@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(../images/background.jpg);
+  background-size: cover;
+  min-height: 100vh;
+  font-family: Proxima Nova;
+  color: white;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  color: white;
+  animation-name: zoom_in;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes zoom_in {
+  0% {
+    color: white;
+  }
+  25% {
+    color: lightblue;
+  }
+  50% {
+    color: lightcoral;
+  }
+  75% {
+    color: lightgreen;
+  }
+  100% {
+    color: white;
+  }
+}
+
+.welcome_page {
+  color: white;
+}
+
+ul {
+  background: rgb(51, 49, 49);
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  height: 40px;
+  opacity: (0, 0, 0, 0.2);
+}
+
+li {
+  display: inline;
+  margin-right: 50px;
+  margin-left: 50px;
+  font-size: 10px;
+  padding-top: 10px;
+  color: white;
+}
+
+li:hover {
+  transform: scale(1.5);
+  transition-duration: 300ms;
+}
+
+a {
+  color: white;
+}
+
+.content {
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100px;
+  width: 90%;
+  margin-top: 50px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+p {
+  color: white;
+}
+
+/* Main Page */
+
+/* Pitch Page */
+
+.video_pitch {
+  display: flex;
+  margin-top: 30px;
+}

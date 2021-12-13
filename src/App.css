@@ -4,9 +4,9 @@
 }
 
 body {
-  background-image: url(../images/background.jpg);
+  background: linear-gradient(to bottom, #f6ba25, teal, black ) ;
   background-size: cover;
-  min-height: 100vh;
+  min-height: 110vh;
   font-family: Proxima Nova;
   color: white;
 }
@@ -71,14 +71,7 @@ a {
 }
 
 .content {
-  display: flex;
-  margin: auto;
-  justify-content: space-between;
-  flex-direction: column;
-  height: 100px;
-  width: 90%;
-  margin-top: 50px;
-  background-color: rgba(0, 0, 0, 0.7);
+ overflow: auto;
 }
 
 p {
@@ -89,7 +82,17 @@ p {
 
 /* Pitch Page */
 
-.video_pitch {
+.videopitch {
   display: flex;
+  justify-content: center;
+}
+
+.pitchtext{
+  display: flex;
+  margin: auto;
+  text-align: justify;
+  width: 640px;
+  height: 300px;
+  color: white;
   margin-top: 30px;
 }

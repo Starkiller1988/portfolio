@@ -2,6 +2,9 @@ import React from "react";
 import Main from '../navigation/main'
 
 function myapps() {
+
+
+
   return (
     <>
     <div>
@@ -12,7 +15,9 @@ function myapps() {
       <Main />
     </div>
 
-    <div className="content"></div>
+    <div>
+     
+    </div>
   </>
   );
 }

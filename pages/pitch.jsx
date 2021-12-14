@@ -18,7 +18,7 @@ function pitch() {
       </div>
 
       <div className="videopitch" >
-      <ReactPlayer url={Video1} playing='true' controls="true" width='640px' height='480px' />
+      <ReactPlayer url={Video1} playing={true} controls={true} width='640px' height='480px' />
       </div>
     
       <h3 className="pitchtext">

@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
 
-import MainPage from "../pages/mainPage";
+import MainPage from "../pages/mainpage";
 import About from "../pages/about";
 import Contact from "../pages/contact";
 import CV from "../pages/cv";

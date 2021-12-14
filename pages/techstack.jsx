@@ -1,6 +1,9 @@
 import React from 'react'
 import Main from '../navigation/main'
 
+import TechStack from  '../images/TechStack.png'
+
+
 function techstack() {
     return (
       <>
@@ -12,7 +15,9 @@ function techstack() {
         <Main />
       </div>
 
-      <div className="content"></div>
+      <div className="techstack-content">
+      <img className="techstack" src={TechStack} alt="TechStack" />
+      </div>
     </>
     )
 }

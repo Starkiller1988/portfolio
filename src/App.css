@@ -96,3 +96,16 @@ p {
   color: white;
   margin-top: 30px;
 }
+
+/* Tech Stack Page */
+
+.techstack-content{
+  display: flex;
+}
+
+.techstack{
+  display: flex;
+  margin: auto;
+  margin-top: 50px;
+  width: 90%;
+}

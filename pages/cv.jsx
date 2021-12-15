@@ -1,5 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import Main from "../navigation/main";
+
+import Pdf from '../components/pdf'
 
 function cv() {
  
@@ -12,6 +14,10 @@ function cv() {
 
       <div>
         <Main />
+      </div>
+
+      <div className="cv-viewer">
+        <Pdf />
       </div>
 
     </>

@@ -80,6 +80,18 @@ p {
 
 /* Main Page */
 
+/* CV Page */
+
+.cv-viewer{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px ;
+}
+
+
+
+
+
 /* Pitch Page */
 
 .videopitch {
